@@ -117,6 +117,22 @@ Controllers  ->  Services  ->  Repositories  ->  EF Core DbContext  ->  SQL Serv
 
 ---
 
+## Screenshots
+
+| Employees list | Add employee |
+|---|---|
+| ![Employees list](screenshots/01-employees-list.png) | ![Add employee](screenshots/02-create-employee.png) |
+
+| Search by name/department | View (read-only) |
+|---|---|
+| ![Search](screenshots/03-search-results.png) | ![Details](screenshots/04-view-details.png) |
+
+| Edit employee | Validation |
+|---|---|
+| ![Edit](screenshots/05-edit-employee.png) | ![Validation](screenshots/07-validation.png) |
+
+---
+
 ## Notes
 
 - Email is enforced unique at the database level and validated in the controller.
